@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		DBEB22CA2B638A3700361F71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEB22C92B638A3700361F71 /* AppDelegate.swift */; };
 		DBEB22CC2B638A3700361F71 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEB22CB2B638A3700361F71 /* SceneDelegate.swift */; };
-		DBEB22CE2B638A3700361F71 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEB22CD2B638A3700361F71 /* ViewController.swift */; };
-		DBEB22D12B638A3700361F71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBEB22CF2B638A3700361F71 /* Main.storyboard */; };
 		DBEB22D32B638A3800361F71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBEB22D22B638A3800361F71 /* Assets.xcassets */; };
 		DBEB22D62B638A3800361F71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBEB22D42B638A3800361F71 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -19,8 +17,6 @@
 		DBEB22C62B638A3700361F71 /* NetflixUIPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetflixUIPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBEB22C92B638A3700361F71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DBEB22CB2B638A3700361F71 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DBEB22CD2B638A3700361F71 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DBEB22D02B638A3700361F71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DBEB22D22B638A3800361F71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DBEB22D52B638A3800361F71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DBEB22D72B638A3800361F71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -56,15 +52,37 @@
 		DBEB22C82B638A3700361F71 /* NetflixUIPractice */ = {
 			isa = PBXGroup;
 			children = (
+				DBEB22DF2B638AF900361F71 /* Controller */,
+				DBEB22DE2B638AF500361F71 /* Model */,
+				DBEB22DD2B638AF000361F71 /* View */,
 				DBEB22C92B638A3700361F71 /* AppDelegate.swift */,
 				DBEB22CB2B638A3700361F71 /* SceneDelegate.swift */,
-				DBEB22CD2B638A3700361F71 /* ViewController.swift */,
-				DBEB22CF2B638A3700361F71 /* Main.storyboard */,
 				DBEB22D22B638A3800361F71 /* Assets.xcassets */,
 				DBEB22D42B638A3800361F71 /* LaunchScreen.storyboard */,
 				DBEB22D72B638A3800361F71 /* Info.plist */,
 			);
 			path = NetflixUIPractice;
+			sourceTree = "<group>";
+		};
+		DBEB22DD2B638AF000361F71 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DBEB22DE2B638AF500361F71 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DBEB22DF2B638AF900361F71 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +145,6 @@
 			files = (
 				DBEB22D62B638A3800361F71 /* LaunchScreen.storyboard in Resources */,
 				DBEB22D32B638A3800361F71 /* Assets.xcassets in Resources */,
-				DBEB22D12B638A3700361F71 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +155,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DBEB22CE2B638A3700361F71 /* ViewController.swift in Sources */,
 				DBEB22CA2B638A3700361F71 /* AppDelegate.swift in Sources */,
 				DBEB22CC2B638A3700361F71 /* SceneDelegate.swift in Sources */,
 			);
@@ -147,14 +163,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		DBEB22CF2B638A3700361F71 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DBEB22D02B638A3700361F71 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DBEB22D42B638A3800361F71 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -297,7 +305,6 @@
 				INFOPLIST_FILE = NetflixUIPractice/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -325,7 +332,6 @@
 				INFOPLIST_FILE = NetflixUIPractice/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
