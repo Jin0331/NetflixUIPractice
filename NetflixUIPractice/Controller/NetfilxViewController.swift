@@ -14,6 +14,17 @@ class NetfilxViewController: UIViewController, ViewSetup {
     let descriptionLabel = UILabel()
     let playButton = UIButton()
     let selectedButton = UIButton()
+    let testLabel = UILabel()
+    let subImageSet = [UIImageView(),UIImageView(),UIImageView()]
+    let stackView: UIStackView = {
+        let stackView = UIStackView()
+        stackView.axis = .horizontal
+        stackView.alignment = .fill
+        stackView.distribution = .fillEqually
+        stackView.spacing = 8
+        
+        return stackView
+    }()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -31,6 +42,11 @@ class NetfilxViewController: UIViewController, ViewSetup {
         mainImageView.addSubview(descriptionLabel)
         mainImageView.addSubview(playButton)
         mainImageView.addSubview(selectedButton)
+        view.addSubview(testLabel)
+        view.addSubview(stackView)
+        subImageSet.map {
+            self.stackView.addArrangedSubview($0)
+        }
     }
 
     
@@ -62,6 +78,21 @@ class NetfilxViewController: UIViewController, ViewSetup {
         selectedButton.titleLabel?.font = .boldSystemFont(ofSize: 15)
         selectedButton.clipsToBounds = true
         selectedButton.layer.cornerRadius = 10
+        
+        testLabel.text = "지금 뜨는 콘텐츠"
+        testLabel.font = .systemFont(ofSize: 17)
+        testLabel.textColor = .white
+        testLabel.textAlignment = .left
+        
+        subImageSet[0].image = UIImage(named: "아바타")
+        subImageSet[1].image = UIImage(named: "암살")
+        subImageSet[2].image = UIImage(named: "극한직업")
+        
+        for subImage in subImageSet {
+            subImage.contentMode = .scaleAspectFill
+            subImage.clipsToBounds = true
+            subImage.layer.cornerRadius = 10
+        }
     }
     
     func setupConstraints() {
@@ -90,6 +121,17 @@ class NetfilxViewController: UIViewController, ViewSetup {
             make.height.equalTo(50)
             make.width.equalTo(155)
             make.leading.equalTo(playButton.snp.trailing).offset(20)
+        }
+        
+        testLabel.snp.makeConstraints { make in
+            make.top.equalTo(mainImageView.snp.bottom).offset(20)
+            make.leading.equalTo(view)
+        }
+        
+        stackView.snp.makeConstraints { make in
+            make.top.equalTo(testLabel).offset(30)
+            make.bottom.equalTo(view.safeAreaLayoutGuide.snp.bottom).offset(-10)
+            make.leading.trailing.equalTo(view).inset(10)
         }
     }
     
