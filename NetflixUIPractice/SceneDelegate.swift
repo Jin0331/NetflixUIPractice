@@ -20,10 +20,11 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // VC별로 Navgiation 달아주기
         let firstVC = UINavigationController(rootViewController: NetfilxViewController())
         let secondVC = UINavigationController(rootViewController: NewHotViewController())
+        let thirdVC = UINavigationController(rootViewController: SaveContentsViewController())
         
         // Tabbar controller
         let tabbarController = UITabBarController()
-        tabbarController.setViewControllers([firstVC, secondVC], animated: true)
+        tabbarController.setViewControllers([firstVC, secondVC, thirdVC], animated: true)
         
         tabbarController.configureItemDesing(tabBar: tabbarController.tabBar)
         

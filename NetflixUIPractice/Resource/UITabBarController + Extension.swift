@@ -12,6 +12,9 @@ extension UITabBarController {
             item[0].title = "홈"
             item[1].image = UIImage(systemName: "play.rectangle.on.rectangle")
             item[1].title = "NEW & HOT"
+            item[2].image = UIImage(systemName: "square.and.arrow.down")
+            item[2].title = "저장 콘텐트 목록"
+
         }
         
 

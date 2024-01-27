@@ -11,6 +11,7 @@
 		DBE87C682B6510CE00EA2AF2 /* Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE87C672B6510CE00EA2AF2 /* Protocol.swift */; };
 		DBE87C6A2B65177E00EA2AF2 /* UIButton + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE87C692B65177E00EA2AF2 /* UIButton + Extension.swift */; };
 		DBE87C6C2B6526DC00EA2AF2 /* NewHotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE87C6B2B6526DC00EA2AF2 /* NewHotViewController.swift */; };
+		DBE87C6E2B65308700EA2AF2 /* SaveContentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE87C6D2B65308700EA2AF2 /* SaveContentsViewController.swift */; };
 		DBEB22CA2B638A3700361F71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEB22C92B638A3700361F71 /* AppDelegate.swift */; };
 		DBEB22CC2B638A3700361F71 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEB22CB2B638A3700361F71 /* SceneDelegate.swift */; };
 		DBEB22D32B638A3800361F71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBEB22D22B638A3800361F71 /* Assets.xcassets */; };
@@ -25,6 +26,7 @@
 		DBE87C672B6510CE00EA2AF2 /* Protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocol.swift; sourceTree = "<group>"; };
 		DBE87C692B65177E00EA2AF2 /* UIButton + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton + Extension.swift"; sourceTree = "<group>"; };
 		DBE87C6B2B6526DC00EA2AF2 /* NewHotViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewHotViewController.swift; sourceTree = "<group>"; };
+		DBE87C6D2B65308700EA2AF2 /* SaveContentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveContentsViewController.swift; sourceTree = "<group>"; };
 		DBEB22C62B638A3700361F71 /* NetflixUIPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetflixUIPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBEB22C92B638A3700361F71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DBEB22CB2B638A3700361F71 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 			children = (
 				DBEB22E02B638BBB00361F71 /* NetfilxViewController.swift */,
 				DBE87C6B2B6526DC00EA2AF2 /* NewHotViewController.swift */,
+				DBE87C6D2B65308700EA2AF2 /* SaveContentsViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -195,6 +198,7 @@
 				DBEB22CC2B638A3700361F71 /* SceneDelegate.swift in Sources */,
 				DBE87C6C2B6526DC00EA2AF2 /* NewHotViewController.swift in Sources */,
 				DBE87C682B6510CE00EA2AF2 /* Protocol.swift in Sources */,
+				DBE87C6E2B65308700EA2AF2 /* SaveContentsViewController.swift in Sources */,
 				DBE87C6A2B65177E00EA2AF2 /* UIButton + Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
