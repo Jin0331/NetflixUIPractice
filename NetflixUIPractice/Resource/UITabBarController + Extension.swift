@@ -10,6 +10,8 @@ extension UITabBarController {
         if let item = tabBar.items {
             item[0].image = UIImage(systemName: "house.fill")
             item[0].title = "홈"
+            item[1].image = UIImage(systemName: "play.rectangle.on.rectangle")
+            item[1].title = "NEW & HOT"
         }
         
 

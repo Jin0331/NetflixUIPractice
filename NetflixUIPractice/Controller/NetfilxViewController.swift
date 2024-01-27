@@ -138,7 +138,7 @@ class NetfilxViewController: UIViewController, ViewSetup {
     func configureNavigation () {
         navigationController?.navigationBar.titleTextAttributes = [
             NSAttributedString.Key.foregroundColor : UIColor.white,
-            NSAttributedString.Key.font : UIFont.systemFont(ofSize: 20)
+            NSAttributedString.Key.font : UIFont.systemFont(ofSize: 20, weight: .heavy)
         ]
         navigationItem.title = "고래밥님"
 
