@@ -7,19 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DBE87C662B650E6400EA2AF2 /* UITabBarController + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE87C652B650E6400EA2AF2 /* UITabBarController + Extension.swift */; };
+		DBE87C682B6510CE00EA2AF2 /* Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE87C672B6510CE00EA2AF2 /* Protocol.swift */; };
+		DBE87C6A2B65177E00EA2AF2 /* UIButton + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE87C692B65177E00EA2AF2 /* UIButton + Extension.swift */; };
+		DBE87C6C2B6526DC00EA2AF2 /* NewHotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE87C6B2B6526DC00EA2AF2 /* NewHotViewController.swift */; };
+		DBE87C6E2B65308700EA2AF2 /* SaveContentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE87C6D2B65308700EA2AF2 /* SaveContentsViewController.swift */; };
 		DBEB22CA2B638A3700361F71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEB22C92B638A3700361F71 /* AppDelegate.swift */; };
 		DBEB22CC2B638A3700361F71 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEB22CB2B638A3700361F71 /* SceneDelegate.swift */; };
 		DBEB22D32B638A3800361F71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBEB22D22B638A3800361F71 /* Assets.xcassets */; };
 		DBEB22D62B638A3800361F71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBEB22D42B638A3800361F71 /* LaunchScreen.storyboard */; };
+		DBEB22E12B638BBB00361F71 /* NetfilxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEB22E02B638BBB00361F71 /* NetfilxViewController.swift */; };
+		DBEB22E92B63912600361F71 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = DBEB22E82B63912600361F71 /* SnapKit */; };
+		DBEB22EB2B63912600361F71 /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = DBEB22EA2B63912600361F71 /* SnapKit-Dynamic */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DBE87C652B650E6400EA2AF2 /* UITabBarController + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITabBarController + Extension.swift"; sourceTree = "<group>"; };
+		DBE87C672B6510CE00EA2AF2 /* Protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocol.swift; sourceTree = "<group>"; };
+		DBE87C692B65177E00EA2AF2 /* UIButton + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton + Extension.swift"; sourceTree = "<group>"; };
+		DBE87C6B2B6526DC00EA2AF2 /* NewHotViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewHotViewController.swift; sourceTree = "<group>"; };
+		DBE87C6D2B65308700EA2AF2 /* SaveContentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveContentsViewController.swift; sourceTree = "<group>"; };
 		DBEB22C62B638A3700361F71 /* NetflixUIPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetflixUIPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBEB22C92B638A3700361F71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DBEB22CB2B638A3700361F71 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		DBEB22D22B638A3800361F71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DBEB22D52B638A3800361F71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DBEB22D72B638A3800361F71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBEB22E02B638BBB00361F71 /* NetfilxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetfilxViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,12 +41,24 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBEB22E92B63912600361F71 /* SnapKit in Frameworks */,
+				DBEB22EB2B63912600361F71 /* SnapKit-Dynamic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DBE87C642B650E4200EA2AF2 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				DBE87C652B650E6400EA2AF2 /* UITabBarController + Extension.swift */,
+				DBE87C692B65177E00EA2AF2 /* UIButton + Extension.swift */,
+				DBE87C672B6510CE00EA2AF2 /* Protocol.swift */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
 		DBEB22BD2B638A3700361F71 = {
 			isa = PBXGroup;
 			children = (
@@ -52,6 +78,7 @@
 		DBEB22C82B638A3700361F71 /* NetflixUIPractice */ = {
 			isa = PBXGroup;
 			children = (
+				DBE87C642B650E4200EA2AF2 /* Resource */,
 				DBEB22DF2B638AF900361F71 /* Controller */,
 				DBEB22DE2B638AF500361F71 /* Model */,
 				DBEB22DD2B638AF000361F71 /* View */,
@@ -81,6 +108,9 @@
 		DBEB22DF2B638AF900361F71 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				DBEB22E02B638BBB00361F71 /* NetfilxViewController.swift */,
+				DBE87C6B2B6526DC00EA2AF2 /* NewHotViewController.swift */,
+				DBE87C6D2B65308700EA2AF2 /* SaveContentsViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -101,6 +131,10 @@
 			dependencies = (
 			);
 			name = NetflixUIPractice;
+			packageProductDependencies = (
+				DBEB22E82B63912600361F71 /* SnapKit */,
+				DBEB22EA2B63912600361F71 /* SnapKit-Dynamic */,
+			);
 			productName = NetflixUIPractice;
 			productReference = DBEB22C62B638A3700361F71 /* NetflixUIPractice.app */;
 			productType = "com.apple.product-type.application";
@@ -129,6 +163,9 @@
 				Base,
 			);
 			mainGroup = DBEB22BD2B638A3700361F71;
+			packageReferences = (
+				DBEB22E72B63912600361F71 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = DBEB22C72B638A3700361F71 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -155,8 +192,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBEB22E12B638BBB00361F71 /* NetfilxViewController.swift in Sources */,
+				DBE87C662B650E6400EA2AF2 /* UITabBarController + Extension.swift in Sources */,
 				DBEB22CA2B638A3700361F71 /* AppDelegate.swift in Sources */,
 				DBEB22CC2B638A3700361F71 /* SceneDelegate.swift in Sources */,
+				DBE87C6C2B6526DC00EA2AF2 /* NewHotViewController.swift in Sources */,
+				DBE87C682B6510CE00EA2AF2 /* Protocol.swift in Sources */,
+				DBE87C6E2B65308700EA2AF2 /* SaveContentsViewController.swift in Sources */,
+				DBE87C6A2B65177E00EA2AF2 /* UIButton + Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -369,6 +412,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DBEB22E72B63912600361F71 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DBEB22E82B63912600361F71 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DBEB22E72B63912600361F71 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		DBEB22EA2B63912600361F71 /* SnapKit-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DBEB22E72B63912600361F71 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = "SnapKit-Dynamic";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DBEB22BE2B638A3700361F71 /* Project object */;
 }
